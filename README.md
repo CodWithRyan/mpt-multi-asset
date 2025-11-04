@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ## 📊 Data Sources
 ### Option 1: Using provided dataset
 The project includes sample data in `data/raw/Capstone_data.csv` containing :
-  - historical pricess for 3 assets
+  - historical prices for 3 assets
   - period: 01/01/2016 - 31/12/2017
   - frequency: daily
 ### Option 2: Using Yahoo Finance
