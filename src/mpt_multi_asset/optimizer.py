@@ -74,6 +74,7 @@ def efficient_frontier(portfolio, max_ret_by_std_dev, min_std_dev):
     plt.yticks(fontsize=12)
     plt.legend(loc='best', fontsize=14)
     plt.title('Portfolio Optimization based on Efficient Frontier', fontsize=20)
+    plt.savefig('notebooks/efficient_frontier.png', dpi=150, bbox_inches='tight')
     plt.show()
 
 def print_portfolio_results(stock_prices, max_ret_by_std_dev, min_std_dev, wts_max_ret_by_std_dev, wts_min_std_dev):
