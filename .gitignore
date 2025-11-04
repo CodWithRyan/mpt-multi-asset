@@ -1,0 +1,8 @@
+.ptfl_mgm_env/bin/activate
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+data/*
+!data/README.md
+!data/samples/
